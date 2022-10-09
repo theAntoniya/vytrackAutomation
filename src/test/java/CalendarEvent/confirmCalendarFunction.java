@@ -3,6 +3,7 @@ package CalendarEvent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import utilities.WebDriverFactory;
 
 import java.util.concurrent.TimeUnit;
@@ -18,6 +19,11 @@ public class confirmCalendarFunction {
 
         //2. Go to https://qa1.vytrack.com/user/login
         driver.get("https://qa1.vytrack.com/user/login");
+    }
+
+    @Test
+    public void test1_AC1(){
+
     }
 
 }
