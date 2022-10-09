@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class vyTrack_Utilities {
+public class VyTrack_Utilities {
 
 
     public static void logInVyTrack(WebDriver driver,String userName,String password){
